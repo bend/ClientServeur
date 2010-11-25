@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel5">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jPanel5" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="436" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jTabbedPane1" pref="571" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jTabbedPane1" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="General">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="jPanel1.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="PrefLabel" min="-2" pref="124" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="enableSoundCombo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="languageLabel" alignment="1" min="-2" pref="106" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="clearSettingsButton" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="comboLanguage" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace pref="107" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="cancelButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="168" max="32767" attributes="0"/>
+                      <Component id="applyButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonPrefOk" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="PrefLabel" min="-2" pref="24" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="languageLabel" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="comboLanguage" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="clearSettingsButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="enableSoundCombo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="364" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonPrefOk" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="applyButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="PrefLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="PrefLabel.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="PrefLabel.text"/>
+                <Property name="name" type="java.lang.String" value="PrefLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="languageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="languageLabel.text"/>
+                <Property name="name" type="java.lang.String" value="languageLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="clearSettingsButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="clearSettingsButton.text"/>
+                <Property name="name" type="java.lang.String" value="clearSettingsButton" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearSettingsButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboLanguage">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="English"/>
+                    <StringItem index="1" value="Francais"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="comboLanguage" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="cancelButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="cancelButton.text"/>
+                <Property name="name" type="java.lang.String" value="cancelButton" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonPrefOk">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="buttonPrefOk.text"/>
+                <Property name="name" type="java.lang.String" value="buttonPrefOk" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonPrefOkActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="applyButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="applyButton.text"/>
+                <Property name="name" type="java.lang.String" value="applyButton" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="applyButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="enableSoundCombo">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="enableSoundCombo.text"/>
+                <Property name="name" type="java.lang.String" value="enableSoundCombo" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="enableSoundComboStateChanged"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Profile">
+                <Property name="tabTitle" type="java.lang.String" resourceKey="jPanel2.TabConstraints.tabTitle"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="cancelButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="149" max="32767" attributes="0"/>
+                              <Component id="applyButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="updateButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="6" pref="6" max="6" attributes="0"/>
+                              <Component id="jTabbedPane2" pref="403" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTabbedPane2" pref="484" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="updateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="applyButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cancelButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="updateButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="updateButton.text"/>
+                <Property name="name" type="java.lang.String" value="updateButton" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="cancelButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="cancelButton2.text"/>
+                <Property name="name" type="java.lang.String" value="cancelButton2" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="applyButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="applyButton2.text"/>
+                <Property name="name" type="java.lang.String" value="applyButton2" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="applyButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jTabbedPane2" noResource="true"/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel3">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                        <EmptyBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="jPanel3" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Informations">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="jPanel3.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="surnameLabel" pref="102" max="32767" attributes="1"/>
+                                                                      <Component id="nameLabel" alignment="0" pref="102" max="32767" attributes="1"/>
+                                                                  </Group>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="passLabel" min="-2" pref="93" max="-2" attributes="1"/>
+                                                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="repPassLabel" min="-2" pref="85" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="emailLabel" min="-2" max="-2" attributes="1"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="birthdateLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="genderLabel" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="phoneLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="webSiteLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="birthField" alignment="0" pref="260" max="32767" attributes="1"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="MRAdio" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="FRadio" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="repPassField" alignment="1" pref="260" max="32767" attributes="1"/>
+                                          <Component id="PassField" alignment="0" pref="260" max="32767" attributes="1"/>
+                                          <Component id="surnameField" alignment="0" pref="260" max="32767" attributes="1"/>
+                                          <Component id="nameField" alignment="0" pref="260" max="32767" attributes="1"/>
+                                          <Component id="emailField" alignment="1" pref="260" max="32767" attributes="1"/>
+                                          <Component id="webSiteField" alignment="0" pref="260" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="phoneField" pref="260" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="surnameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="surnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="PassField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="passLabel" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="repPassField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="repPassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="emailField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="emailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="MRAdio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="FRadio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="genderLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="birthField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="birthdateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="webSiteField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="webSiteLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="phoneField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="phoneLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="nameLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="nameLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="nameLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="surnameLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="surnameLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="surnameLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="passLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="passLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="passLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="repPassLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="repPassLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="repPassLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="emailLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="emailLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="emailLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="genderLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="genderLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="genderLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="birthdateLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="birthdateLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="birthdateLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nameField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="nameField.text"/>
+                        <Property name="name" type="java.lang.String" value="nameField" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="surnameField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="surnameField.text"/>
+                        <Property name="name" type="java.lang.String" value="surnameField" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JPasswordField" name="PassField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="PassField.text"/>
+                        <Property name="name" type="java.lang.String" value="PassField" noResource="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PassFieldMouseClicked"/>
+                        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="PassFieldFocusGained"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JPasswordField" name="repPassField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="repPassField.text"/>
+                        <Property name="name" type="java.lang.String" value="repPassField" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="emailField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="emailField.text"/>
+                        <Property name="name" type="java.lang.String" value="emailField" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="MRAdio">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="MRAdio.text"/>
+                        <Property name="name" type="java.lang.String" value="MRAdio" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="FRadio">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="FRadio.text"/>
+                        <Property name="name" type="java.lang.String" value="FRadio" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="birthField">
+                      <Properties>
+                        <Property name="columns" type="int" value="4"/>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                          <Format format="##/##/####" subtype="-1" type="5"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="birthField" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JPanel" name="jPanel6">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Adress">
+                              <Property name="titleX" resourceKey="jPanel6.border.title"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jPanel6" noResource="true"/>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cityLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="countryLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="20" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="countryCombobox" alignment="1" min="0" pref="0" max="32767" attributes="1"/>
+                                      <Component id="cityTextField" alignment="1" pref="236" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="9" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="countryCombobox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="countryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextField" name="cityTextField">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="cityTextField.text"/>
+                            <Property name="name" type="java.lang.String" value="cityTextField" noResource="true"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="countryCombobox">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="195">
+                                <StringItem index="0" value="Afghanistan"/>
+                                <StringItem index="1" value="Albania"/>
+                                <StringItem index="2" value="Algeria"/>
+                                <StringItem index="3" value="Andorra"/>
+                                <StringItem index="4" value="Angola"/>
+                                <StringItem index="5" value="Antigua &amp; Deps"/>
+                                <StringItem index="6" value="Argentina"/>
+                                <StringItem index="7" value="Armenia"/>
+                                <StringItem index="8" value="Australia"/>
+                                <StringItem index="9" value="Austria"/>
+                                <StringItem index="10" value="Azerbaijan"/>
+                                <StringItem index="11" value="Bahamas"/>
+                                <StringItem index="12" value="Bahrain"/>
+                                <StringItem index="13" value="Bangladesh"/>
+                                <StringItem index="14" value="Barbados"/>
+                                <StringItem index="15" value="Belarus"/>
+                                <StringItem index="16" value="Belgium"/>
+                                <StringItem index="17" value="Belize"/>
+                                <StringItem index="18" value="Benin"/>
+                                <StringItem index="19" value="Bhutan"/>
+                                <StringItem index="20" value="Bolivia"/>
+                                <StringItem index="21" value="Bosnia Herzegovina"/>
+                                <StringItem index="22" value="Botswana"/>
+                                <StringItem index="23" value="Brazil"/>
+                                <StringItem index="24" value="Brunei"/>
+                                <StringItem index="25" value="Bulgaria"/>
+                                <StringItem index="26" value="Burkina"/>
+                                <StringItem index="27" value="Burundi"/>
+                                <StringItem index="28" value="Cambodia"/>
+                                <StringItem index="29" value="Cameroon"/>
+                                <StringItem index="30" value="Canada"/>
+                                <StringItem index="31" value="Cape Verde"/>
+                                <StringItem index="32" value="Central African Rep"/>
+                                <StringItem index="33" value="Chad"/>
+                                <StringItem index="34" value="Chile"/>
+                                <StringItem index="35" value="China"/>
+                                <StringItem index="36" value="Colombia"/>
+                                <StringItem index="37" value="Comoros"/>
+                                <StringItem index="38" value="Congo"/>
+                                <StringItem index="39" value="Congo {Democratic Rep}"/>
+                                <StringItem index="40" value="Costa Rica"/>
+                                <StringItem index="41" value="Croatia"/>
+                                <StringItem index="42" value="Cuba"/>
+                                <StringItem index="43" value="Cyprus"/>
+                                <StringItem index="44" value="Czech Republic"/>
+                                <StringItem index="45" value="Denmark"/>
+                                <StringItem index="46" value="Djibouti"/>
+                                <StringItem index="47" value="Dominica"/>
+                                <StringItem index="48" value="Dominican Republic"/>
+                                <StringItem index="49" value="East Timor"/>
+                                <StringItem index="50" value="Ecuador"/>
+                                <StringItem index="51" value="Egypt"/>
+                                <StringItem index="52" value="El Salvador"/>
+                                <StringItem index="53" value="Equatorial Guinea"/>
+                                <StringItem index="54" value="Eritrea"/>
+                                <StringItem index="55" value="Estonia"/>
+                                <StringItem index="56" value="Ethiopia"/>
+                                <StringItem index="57" value="Fiji"/>
+                                <StringItem index="58" value="Finland"/>
+                                <StringItem index="59" value="France"/>
+                                <StringItem index="60" value="Gabon"/>
+                                <StringItem index="61" value="Gambia"/>
+                                <StringItem index="62" value="Georgia"/>
+                                <StringItem index="63" value="Germany"/>
+                                <StringItem index="64" value="Ghana"/>
+                                <StringItem index="65" value="Greece"/>
+                                <StringItem index="66" value="Grenada"/>
+                                <StringItem index="67" value="Guatemala"/>
+                                <StringItem index="68" value="Guinea"/>
+                                <StringItem index="69" value="Guinea-Bissau"/>
+                                <StringItem index="70" value="Guyana"/>
+                                <StringItem index="71" value="Haiti"/>
+                                <StringItem index="72" value="Honduras"/>
+                                <StringItem index="73" value="Hungary"/>
+                                <StringItem index="74" value="Iceland"/>
+                                <StringItem index="75" value="India"/>
+                                <StringItem index="76" value="Indonesia"/>
+                                <StringItem index="77" value="Iran"/>
+                                <StringItem index="78" value="Iraq"/>
+                                <StringItem index="79" value="Ireland {Republic}"/>
+                                <StringItem index="80" value="Israel"/>
+                                <StringItem index="81" value="Italy"/>
+                                <StringItem index="82" value="Ivory Coast"/>
+                                <StringItem index="83" value="Jamaica"/>
+                                <StringItem index="84" value="Japan"/>
+                                <StringItem index="85" value="Jordan"/>
+                                <StringItem index="86" value="Kazakhstan"/>
+                                <StringItem index="87" value="Kenya"/>
+                                <StringItem index="88" value="Kiribati"/>
+                                <StringItem index="89" value="Korea North"/>
+                                <StringItem index="90" value="Korea South"/>
+                                <StringItem index="91" value="Kosovo"/>
+                                <StringItem index="92" value="Kuwait"/>
+                                <StringItem index="93" value="Kyrgyzstan"/>
+                                <StringItem index="94" value="Laos"/>
+                                <StringItem index="95" value="Latvia"/>
+                                <StringItem index="96" value="Lebanon"/>
+                                <StringItem index="97" value="Lesotho"/>
+                                <StringItem index="98" value="Liberia"/>
+                                <StringItem index="99" value="Libya"/>
+                                <StringItem index="100" value="Liechtenstein"/>
+                                <StringItem index="101" value="Lithuania"/>
+                                <StringItem index="102" value="Luxembourg"/>
+                                <StringItem index="103" value="Macedonia"/>
+                                <StringItem index="104" value="Madagascar"/>
+                                <StringItem index="105" value="Malawi"/>
+                                <StringItem index="106" value="Malaysia"/>
+                                <StringItem index="107" value="Maldives"/>
+                                <StringItem index="108" value="Mali"/>
+                                <StringItem index="109" value="Malta"/>
+                                <StringItem index="110" value="Marshall Islands"/>
+                                <StringItem index="111" value="Mauritania"/>
+                                <StringItem index="112" value="Mauritius"/>
+                                <StringItem index="113" value="Mexico"/>
+                                <StringItem index="114" value="Micronesia"/>
+                                <StringItem index="115" value="Moldova"/>
+                                <StringItem index="116" value="Monaco"/>
+                                <StringItem index="117" value="Mongolia"/>
+                                <StringItem index="118" value="Montenegro"/>
+                                <StringItem index="119" value="Morocco"/>
+                                <StringItem index="120" value="Mozambique"/>
+                                <StringItem index="121" value="Myanmar, {Burma}"/>
+                                <StringItem index="122" value="Namibia"/>
+                                <StringItem index="123" value="Nauru"/>
+                                <StringItem index="124" value="Nepal"/>
+                                <StringItem index="125" value="Netherlands"/>
+                                <StringItem index="126" value="New Zealand"/>
+                                <StringItem index="127" value="Nicaragua"/>
+                                <StringItem index="128" value="Niger"/>
+                                <StringItem index="129" value="Nigeria"/>
+                                <StringItem index="130" value="Norway"/>
+                                <StringItem index="131" value="Oman"/>
+                                <StringItem index="132" value="Pakistan"/>
+                                <StringItem index="133" value="Palau"/>
+                                <StringItem index="134" value="Panama"/>
+                                <StringItem index="135" value="Papua New Guinea"/>
+                                <StringItem index="136" value="Paraguay"/>
+                                <StringItem index="137" value="Peru"/>
+                                <StringItem index="138" value="Philippines"/>
+                                <StringItem index="139" value="Poland"/>
+                                <StringItem index="140" value="Portugal"/>
+                                <StringItem index="141" value="Qatar"/>
+                                <StringItem index="142" value="Romania"/>
+                                <StringItem index="143" value="Russian Federation"/>
+                                <StringItem index="144" value="Rwanda"/>
+                                <StringItem index="145" value="St Kitts &amp; Nevis"/>
+                                <StringItem index="146" value="St Lucia"/>
+                                <StringItem index="147" value="Saint Vincent &amp; the Grenadines"/>
+                                <StringItem index="148" value="Samoa"/>
+                                <StringItem index="149" value="San Marino"/>
+                                <StringItem index="150" value="Sao Tome &amp; Principe"/>
+                                <StringItem index="151" value="Saudi Arabia"/>
+                                <StringItem index="152" value="Senegal"/>
+                                <StringItem index="153" value="Serbia"/>
+                                <StringItem index="154" value="Seychelles"/>
+                                <StringItem index="155" value="Sierra Leone"/>
+                                <StringItem index="156" value="Singapore"/>
+                                <StringItem index="157" value="Slovakia"/>
+                                <StringItem index="158" value="Slovenia"/>
+                                <StringItem index="159" value="Solomon Islands"/>
+                                <StringItem index="160" value="Somalia"/>
+                                <StringItem index="161" value="South Africa"/>
+                                <StringItem index="162" value="Spain"/>
+                                <StringItem index="163" value="Sri Lanka"/>
+                                <StringItem index="164" value="Sudan"/>
+                                <StringItem index="165" value="Suriname"/>
+                                <StringItem index="166" value="Swaziland"/>
+                                <StringItem index="167" value="Sweden"/>
+                                <StringItem index="168" value="Switzerland"/>
+                                <StringItem index="169" value="Syria"/>
+                                <StringItem index="170" value="Taiwan"/>
+                                <StringItem index="171" value="Tajikistan"/>
+                                <StringItem index="172" value="Tanzania"/>
+                                <StringItem index="173" value="Thailand"/>
+                                <StringItem index="174" value="Togo"/>
+                                <StringItem index="175" value="Tonga"/>
+                                <StringItem index="176" value="Trinidad &amp; Tobago"/>
+                                <StringItem index="177" value="Tunisia"/>
+                                <StringItem index="178" value="Turkey"/>
+                                <StringItem index="179" value="Turkmenistan"/>
+                                <StringItem index="180" value="Tuvalu"/>
+                                <StringItem index="181" value="Uganda"/>
+                                <StringItem index="182" value="Ukraine"/>
+                                <StringItem index="183" value="United Arab Emirates"/>
+                                <StringItem index="184" value="United Kingdom"/>
+                                <StringItem index="185" value="United States"/>
+                                <StringItem index="186" value="Uruguay"/>
+                                <StringItem index="187" value="Uzbekistan"/>
+                                <StringItem index="188" value="Vanuatu"/>
+                                <StringItem index="189" value="Vatican City"/>
+                                <StringItem index="190" value="Venezuela"/>
+                                <StringItem index="191" value="Vietnam"/>
+                                <StringItem index="192" value="Yemen"/>
+                                <StringItem index="193" value="Zambia"/>
+                                <StringItem index="194" value="Zimbabwe"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="name" type="java.lang.String" value="countryCombobox" noResource="true"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="countryLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="countryLabel.text"/>
+                            <Property name="name" type="java.lang.String" value="countryLabel" noResource="true"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="cityLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="cityLabel.text"/>
+                            <Property name="name" type="java.lang.String" value="cityLabel" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="phoneLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="phoneLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="phoneLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="phoneField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="phoneField.text"/>
+                        <Property name="name" type="java.lang.String" value="phoneField" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="webSiteLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="webSiteLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="webSiteLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="webSiteField">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="webSiteField.text"/>
+                        <Property name="name" type="java.lang.String" value="webSiteField" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel4">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jPanel4" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="About">
+                        <Property name="tabTitle" type="java.lang.String" resourceKey="jPanel4.TabConstraints.tabTitle"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane2" alignment="0" pref="376" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="aboutLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="338" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jScrollPane1" pref="370" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="InterestLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="321" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="InterestLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="128" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="aboutLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" pref="236" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="InterestLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="InterestLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="InterestLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="interestTextArea">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="lineWrap" type="boolean" value="true"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="name" type="java.lang.String" value="interestTextArea" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="aboutLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" resourceKey="aboutLabel.text"/>
+                        <Property name="name" type="java.lang.String" value="aboutLabel" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="aboutTextArea">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="name" type="java.lang.String" value="aboutTextArea" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

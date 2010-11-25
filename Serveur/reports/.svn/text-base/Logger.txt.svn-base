@@ -1,0 +1,147 @@
+Mon Nov 16 20:44:54 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+
+Mon Nov 16 20:44:54 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+Mon Nov 16 23:30:16 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+
+
+Sun Dec 06 13:14:03 CET 2009
+File not foundConf/DP.dat (No such file or directory)
+java.io.FileInputStream.open(Native Method)
+java.io.FileInputStream.<init>(FileInputStream.java:106)
+java.io.FileInputStream.<init>(FileInputStream.java:66)
+com.ben.chat.client.views.ConnectionView.loadSettings(ConnectionView.java:416)
+com.ben.chat.client.views.ConnectionView.<init>(ConnectionView.java:56)
+com.ben.chat.client.views.ClientChatView.initConnectionWindow(ClientChatView.java:141)
+com.ben.chat.client.views.ClientChatView.<init>(ClientChatView.java:100)
+com.ben.chat.client.views.ClientChatApp.startup(ClientChatApp.java:20)
+org.jdesktop.application.Application$1.run(Application.java:171)
+java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+java.awt.EventQueue.dispatchEvent(EventQueue.java:633)
+java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+

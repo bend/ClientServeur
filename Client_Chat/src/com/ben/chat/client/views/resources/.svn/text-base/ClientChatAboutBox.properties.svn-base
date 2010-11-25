@@ -1,0 +1,17 @@
+title = About: ${Application.title} ${Application.version} 
+
+closeAboutBox.Action.text = &Close
+
+appDescLabel.text=<html>A Chat Client based on Swing Application Framework.
+
+versionLabel.text=Product Version: 2.1.0
+
+vendorLabel.text=
+
+homepageLabel.text=
+#NOI18N
+imageLabel.icon=Chat_Icon.png
+jLabel1.text=Author: Ben
+jLabel2.text=Copyright \u00A9 2009 Benoit Daccache
+jLabel3.text=<html><marquee>ben.daccache@gmail.com</marquee><html>
+jLabel4.text=All rights reserved

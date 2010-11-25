@@ -1,0 +1,20 @@
+Sat Jan 09 18:50:06 CET 2010
+../conf/Report.dat (No such file or directory)
+java.io.FileOutputStream.open(Native Method)
+java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+com.ben.chat.server.report.ReportList.Serialize(ReportList.java:78)
+com.ben.chat.server.report.ReportList.<init>(ReportList.java:34)
+com.ben.chat.server.Serveur.<init>(Serveur.java:47)
+com.ben.chat.server.Serveur.main(Serveur.java:107)
+
+Fri Oct 01 23:06:44 CEST 2010
+../conf/Report.dat (No such file or directory)
+java.io.FileOutputStream.open(Native Method)
+java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+com.ben.chat.server.report.ReportList.Serialize(ReportList.java:78)
+com.ben.chat.server.report.ReportList.<init>(ReportList.java:34)
+com.ben.chat.server.Serveur.<init>(Serveur.java:47)
+com.ben.chat.server.Serveur.main(Serveur.java:107)
+

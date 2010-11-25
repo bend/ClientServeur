@@ -1,0 +1,23 @@
+
+whispButtonSend.text=Send
+#NOI18N
+whispField.background=254, 254, 254
+#NOI18N
+whispButtonSend.icon=icon.png
+personalDP.text=
+userDP.text=
+text=
+#NOI18N
+changeDpButton.icon=Pictures.png
+changeDpMenuItem.text=Change display picture
+#NOI18N
+colorChooserButton.icon=JColorChooser.png
+#NOI18N
+jSeparator1.background=0, 0, 0
+recButton.text=
+#NOI18N
+recButton.icon=rec.png
+recButton.toolTipText=Record and send sou,d
+secureButton.toolTipText=secure Chat
+#NOI18N
+secureButton.icon=secure_icon.png

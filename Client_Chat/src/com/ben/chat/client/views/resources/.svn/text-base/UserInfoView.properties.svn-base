@@ -1,0 +1,45 @@
+text=Surname
+jPanel2.TabConstraints.tabTitle=About
+Form.title=Address
+jPanel4.border.title=Interests
+jPanel5.border.title=About
+jPanel3.border.title=Address
+jPanel1.TabConstraints.tabTitle=Informations
+nameField.text=
+surnameField.text=
+emailField.text=
+genderField.text=
+cityField.text=
+countryField.text=
+#NOI18N
+nameField.background=192, 192, 192
+#NOI18N
+surnameField.background=192, 192, 192
+#NOI18N
+emailField.background=192, 192, 192
+#NOI18N
+genderField.background=192, 192, 192
+#NOI18N
+cityField.background=192, 192, 192
+#NOI18N
+countryField.background=192, 192, 192
+nameLabel.text=Name
+emailLabel.text=Email
+genderLabel.text=Gender
+cityLabel.text=City
+countryLabel.text=Country
+dpLabel.text=
+webSiteField.text=
+#NOI18N
+webSiteField.background=192, 192, 192
+phoneLabel.text=Phone
+websiteLabel.text=Web site
+sendMailLabel.text=(send mail)
+#NOI18N
+sendMailLabel.foreground=51, 51, 255
+openwsLabel.text=(open website)
+#NOI18N
+openwsLabel.foreground=0, 51, 255
+phoneField.text=
+#NOI18N
+phoneField.background=192, 192, 192

@@ -1,0 +1,138 @@
+showAboutBox.Action.text =
+showAboutBox.Action.shortDescription =
+
+# status bar resources
+
+StatusBar.messageTimeout = 5000
+StatusBar.busyAnimationRate = 30
+StatusBar.idleIcon = busyicons/idle-icon.png
+StatusBar.busyIcons[0]  = busyicons/busy-icon0.png
+StatusBar.busyIcons[1]  = busyicons/busy-icon1.png
+StatusBar.busyIcons[2]  = busyicons/busy-icon2.png
+StatusBar.busyIcons[3]  = busyicons/busy-icon3.png
+StatusBar.busyIcons[4]  = busyicons/busy-icon4.png
+StatusBar.busyIcons[5]  = busyicons/busy-icon5.png
+StatusBar.busyIcons[6]  = busyicons/busy-icon6.png
+StatusBar.busyIcons[7]  = busyicons/busy-icon7.png
+StatusBar.busyIcons[8]  = busyicons/busy-icon8.png
+StatusBar.busyIcons[9]  = busyicons/busy-icon9.png
+StatusBar.busyIcons[10] = busyicons/busy-icon10.png
+StatusBar.busyIcons[11] = busyicons/busy-icon11.png
+StatusBar.busyIcons[12] = busyicons/busy-icon12.png
+StatusBar.busyIcons[13] = busyicons/busy-icon13.png
+StatusBar.busyIcons[14] = busyicons/busy-icon14.png
+disconnectMenu.text=Disconnect
+#NOI18N
+mainPanel.background=0, 102, 255
+#NOI18N
+menuBar.background=255, 255, 255
+jTabbedPane3.TabConstraints.tabTitle=
+sendButton.text=Send
+jPanel5.TabConstraints.tabTitle=Room Conversation
+sendFileMenu.actionCommand=sendFile
+sendFileMenu.text=Send file
+menuPrivateConversation.text=Private conversation
+menuAbout.text=About..
+#NOI18N
+salonField.background=254, 254, 254
+#NOI18N
+salonField.disabledTextColor=0, 0, 0
+salonField.text=
+browseMenuItem.text=Browse server
+#NOI18N
+browseMenuItem.icon=ServiceNode.gif
+#NOI18N
+sendFileMenu.icon=folder.png
+#NOI18N
+menuPrivateConversation.icon=target_path.gif
+changeUsernameMenu.text=Change username
+saveConvMenu.text=Save conversation
+fullScreenMenu.text=Full screen
+clearFieldMenu.text=Clear conversation field
+close.text=close tab
+saveConv.text=save conversation
+clearField.text=clear field
+changeColorMenu.text=Change background color
+browseServeurMenu.text=Browse serveur
+closeTab.text=Close current tab
+callContact.text=Call
+callContact.toolTipText=Call the contact
+#NOI18N
+callContact.icon=icon_157_call.png
+#NOI18N
+sendButton.icon=icon.png
+#NOI18N
+browseServeurMenu.icon=ServiceNode.gif
+#NOI18N
+exitMenuItem.icon=exit.png
+#NOI18N
+saveConvMenu.icon=save.gif
+#NOI18N
+clearFieldMenu.icon=clear.png
+#NOI18N
+closeTab.icon=closebox.png
+#NOI18N
+fullScreenMenu.icon=fullscreen.gif
+#NOI18N
+changeColorMenu.icon=ext_com.png
+#NOI18N
+changeUsernameMenu.icon=black.png
+#NOI18N
+disconnectMenu.icon=disconnect.gif
+#NOI18N
+close.icon=closebox.png
+#NOI18N
+saveConv.icon=save.gif
+#NOI18N
+clearField.icon=clear.png
+FileMenu.text=File
+EditMenu.text=Edit
+ViewMenu.text=View
+HelpMenu.text=Help
+PrefMenuItem.text=Preferences
+#NOI18N
+PrefMenuItem.icon=pref.gif
+getInfoMenuItem.text=Get info
+reportMenuItem.text=Report Bug
+#NOI18N
+getInfoMenuItem.icon=getinfo.png
+#NOI18N
+reportMenuItem.icon=Icon_bugs.png
+#NOI18N
+menuAbout.icon=about2.png
+shareScreenMenuItem.text=Share Screen
+privateConvToolbarItem.toolTipText=Private conversation
+privateConvToolbarItem.text=
+#NOI18N
+privateConvToolbarItem.icon=target_path.gif
+callToolbarItem.toolTipText=Call
+callToolbarItem.text=
+#NOI18N
+callToolbarItem.icon=icon_157_call.png
+shareToolbarItem.toolTipText=Share screen
+shareToolbarItem.text=
+#NOI18N
+shareToolbarItem.icon=Screen_Sharing_Icon.png
+sendFileToolbarItem.toolTipText=Send file
+sendFileToolbarItem.text=
+#NOI18N
+sendFileToolbarItem.icon=folder.png
+getInfoToolbarItem.toolTipText=Get info
+getInfoToolbarItem.text=
+#NOI18N
+getInfoToolbarItem.icon=getinfo.png
+browseToolbarItem.toolTipText=Browser server
+browseToolbarItem.text=
+#NOI18N
+browseToolbarItem.icon=ServiceNode.gif
+saveConversationToolbarItem.text=
+#NOI18N
+saveConversationToolbarItem.icon=save.gif
+ClearFieldToolbarItem.text=
+#NOI18N
+ClearFieldToolbarItem.icon=clear.png
+#NOI18N
+shareScreenMenuItem.icon=Screen_Sharing_Icon.png
+colorChooserButton.text=
+#NOI18N
+colorChooserButton.icon=JColorChooser.png
