@@ -1,3 +1,5 @@
+# Client Server app
+
 ## Running the client server
 
 ### Client
@@ -77,5 +79,10 @@ The server will ask you the different informations required
 
 - ...
 
+### Client
+
+Once connected to the server you have the room conversion, where everything is shared between all the connected users
+You can create a private conversation by right clicking on the user in the list located @ the right
+There are a lot of features that can be found by right cliking on the user of going in the prefs.
 
 
