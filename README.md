@@ -36,42 +36,44 @@ You can access your profile from file menu/ preferences
 ### Server
 
 To add a user, you need to add it server side.
+
 - to do that type in the server command line 
 
-	adduser
+		adduser
 
 The server will ask you the different informations required
+
 - You can also see the number of users connected with 
 	
-	nbconnected
+		nbconnected
 
 - You can remove a user with
 	
-	removeUser
+		removeUser
 
 - You can see how many users are registred with
 	
-	nbregistred
+		nbregistred
 
 - You can send a message to a spefied user or to all users with
 	
-	sendMessage -u [username] -m message
+		sendMessage -u [username] -m message
 
 - You can kick a user with
 
-	Usage: kickUser -u username [-c cause]
+		kickUser -u username [-c cause]
 
 - You can get informations about a user with
 	
-	getUserInfo
+		getUserInfo
 
 - To exit the server type
 	
-	exit
+		exit
 
 - To build the reports type
 	
-	buildreports
+		buildreports
 
 - ...
 
