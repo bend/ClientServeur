@@ -18,3 +18,105 @@ com.ben.chat.server.report.ReportList.<init>(ReportList.java:34)
 com.ben.chat.server.Serveur.<init>(Serveur.java:47)
 com.ben.chat.server.Serveur.main(Serveur.java:107)
 
+Wed Jun 01 14:41:46 CEST 2011
+../conf/Report.dat (No such file or directory)
+java.io.FileOutputStream.open(Native Method)
+java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+java.io.FileOutputStream.<init>(FileOutputStream.java:131)
+com.ben.chat.server.report.ReportList.Serialize(ReportList.java:78)
+com.ben.chat.server.report.ReportList.<init>(ReportList.java:34)
+com.ben.chat.server.Serveur.<init>(Serveur.java:47)
+com.ben.chat.server.Serveur.main(Serveur.java:107)
+
+Wed Jun 01 14:45:37 CEST 2011
+IOSocket closed
+java.net.SocketInputStream.socketRead0(Native Method)
+java.net.SocketInputStream.read(SocketInputStream.java:129)
+java.net.SocketInputStream.read(SocketInputStream.java:182)
+java.io.DataInputStream.readInt(DataInputStream.java:370)
+com.ben.chat.server.traitement.TraitementFichier.receiveInt(TraitementFichier.java:143)
+com.ben.chat.server.traitement.TraitementFichier.run(TraitementFichier.java:54)
+
+Wed Jun 01 14:46:30 CEST 2011
+Error while creating socketAddress already in use
+java.net.PlainSocketImpl.socketBind(Native Method)
+java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+java.net.ServerSocket.bind(ServerSocket.java:328)
+java.net.ServerSocket.<init>(ServerSocket.java:194)
+java.net.ServerSocket.<init>(ServerSocket.java:106)
+com.ben.chat.server.Serveur.<init>(Serveur.java:52)
+com.ben.chat.server.Serveur.main(Serveur.java:107)
+
+Wed Jun 01 14:49:20 CEST 2011
+EOfnull
+java.io.DataInputStream.readInt(DataInputStream.java:375)
+com.ben.chat.server.traitement.TraitementVoice.run(TraitementVoice.java:60)
+
+Wed Jun 01 14:49:20 CEST 2011
+SocketSocket closed
+java.net.SocketInputStream.read(SocketInputStream.java:162)
+java.net.SocketInputStream.read(SocketInputStream.java:182)
+java.io.DataInputStream.readInt(DataInputStream.java:370)
+com.ben.chat.server.traitement.TraitementVoice.run(TraitementVoice.java:57)
+
+Wed Jun 01 14:49:49 CEST 2011
+IOnull
+java.io.DataInputStream.readInt(DataInputStream.java:375)
+com.ben.chat.server.traitement.TraitementScreenControl.receiveInt(TraitementScreenControl.java:88)
+com.ben.chat.server.traitement.TraitementScreenControl.run(TraitementScreenControl.java:47)
+
+Wed Jun 01 14:50:18 CEST 2011
+IOSocket closed
+java.net.SocketInputStream.socketRead0(Native Method)
+java.net.SocketInputStream.read(SocketInputStream.java:129)
+java.net.SocketInputStream.read(SocketInputStream.java:182)
+java.io.DataInputStream.readInt(DataInputStream.java:370)
+com.ben.chat.server.traitement.TraitementShareScreen.receiveInt(TraitementShareScreen.java:82)
+com.ben.chat.server.traitement.TraitementShareScreen.run(TraitementShareScreen.java:51)
+
+Wed Jun 01 14:50:33 CEST 2011
+IOnull
+java.io.DataInputStream.readInt(DataInputStream.java:375)
+com.ben.chat.server.traitement.TraitementScreenControl.receiveInt(TraitementScreenControl.java:88)
+com.ben.chat.server.traitement.TraitementScreenControl.run(TraitementScreenControl.java:47)
+
+Wed Jun 01 14:50:33 CEST 2011
+IO errorBroken pipe
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:92)
+java.net.SocketOutputStream.write(SocketOutputStream.java:136)
+java.io.DataOutputStream.write(DataOutputStream.java:90)
+java.io.FilterOutputStream.write(FilterOutputStream.java:80)
+com.ben.chat.server.traitement.TraitementFichier.sendTabByte(TraitementFichier.java:98)
+com.ben.chat.server.traitement.TraitementFichier.uploadFile(TraitementFichier.java:188)
+com.ben.chat.server.traitement.TraitementFichier.ForwardAction(TraitementFichier.java:66)
+com.ben.chat.server.traitement.TraitementFichier.run(TraitementFichier.java:55)
+
+Wed Jun 01 14:50:33 CEST 2011
+IOConnection reset
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+java.net.SocketInputStream.read(SocketInputStream.java:182)
+java.io.DataInputStream.readInt(DataInputStream.java:370)
+com.ben.chat.server.traitement.TraitementFichier.receiveInt(TraitementFichier.java:143)
+com.ben.chat.server.traitement.TraitementFichier.run(TraitementFichier.java:54)
+
+Wed Jun 01 14:50:33 CEST 2011
+IO errorBroken pipe
+java.net.SocketOutputStream.socketWrite0(Native Method)
+java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:92)
+java.net.SocketOutputStream.write(SocketOutputStream.java:136)
+java.io.DataOutputStream.write(DataOutputStream.java:90)
+java.io.FilterOutputStream.write(FilterOutputStream.java:80)
+com.ben.chat.server.traitement.TraitementFichier.sendTabByte(TraitementFichier.java:98)
+com.ben.chat.server.traitement.TraitementFichier.uploadFile(TraitementFichier.java:188)
+com.ben.chat.server.traitement.TraitementFichier.ForwardAction(TraitementFichier.java:66)
+com.ben.chat.server.traitement.TraitementFichier.run(TraitementFichier.java:55)
+
+Wed Jun 01 14:50:33 CEST 2011
+IOConnection reset
+java.net.SocketInputStream.read(SocketInputStream.java:168)
+java.net.SocketInputStream.read(SocketInputStream.java:182)
+java.io.DataInputStream.readInt(DataInputStream.java:370)
+com.ben.chat.server.traitement.TraitementFichier.receiveInt(TraitementFichier.java:143)
+com.ben.chat.server.traitement.TraitementFichier.run(TraitementFichier.java:54)
+

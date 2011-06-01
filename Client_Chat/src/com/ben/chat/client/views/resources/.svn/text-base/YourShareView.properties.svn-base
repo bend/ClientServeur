@@ -1,9 +1,0 @@
-jButton1.text=Stop sharing
-jLabel1.text=Scale
-jLabel2.text=Color
-grayBitRadioButton.text=8 bit
-fullBitRadioButton.text=16 bit
-jLabel3.text=Interval
-sliderStatusLabel.text=
-timeLabel.text=
-screenControlBox.text=Screen control

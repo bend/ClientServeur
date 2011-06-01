@@ -1,8 +1,0 @@
-sendButton.text=Send
-cancelButton.text=Cancel
-typeLabel.text=Type
-reportBugLabel.text=Report a Bug
-#NOI18N
-reportBugLabel.font=Lucida Grande-Bold-16
-reportLabel.text=Report
-progressLabel.text=

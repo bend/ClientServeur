@@ -1,8 +1,0 @@
-playButton.text=
-discardButton.text=Discard
-saveButton.text=Save as
-#NOI18N
-playButton.icon=play.png
-stopButton.text=
-#NOI18N
-stopButton.icon=stop.png
