@@ -40,7 +40,7 @@ To add a user, you need to add it server side.
 
 	adduser
 
-	The server will ask you the different informations required
+The server will ask you the different informations required
 - You can also see the number of users connected with 
 	
 	nbconnected
